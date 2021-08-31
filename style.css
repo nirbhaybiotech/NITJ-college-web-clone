@@ -1,0 +1,52 @@
+body{
+   margin: 0px;
+   padding: 0px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+.my_menu{
+    position:absolute;
+    width: 100%;
+    height: auto;
+    background-color: rgb(107, 9, 107);
+}
+
+
+.menu li{
+    list-style: none;
+    width: 130px;
+    height: 40px;
+    background-color: #3A1F3B;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+
+
+}
+
+.menu li a:hover{
+    color: white;
+}
+.menu li a{
+    color: #debbbb;
+    display: block;
+    text-decoration: none;
+    
+}
+.logo_li a{
+    font-size: 30px;
+    color: yellow !important;
+
+}
+.menu ul li{
+    margin: 0px;
+}
+.menu ul{
+    display: none;
+}
+.menu li:hover ul{
+    display: block;
+}
